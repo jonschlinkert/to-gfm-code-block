@@ -1,7 +1,7 @@
 {
   "name": "to-gfm-code-block",
   "description": "Generate a github-flavored-markdown fenced-code-block snippet.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/to-gfm-code-block",
   "author": {
     "name": "Jon Schlinkert",
