@@ -7,13 +7,13 @@
 
 'use strict';
 
-module.exports = function pre(str, language) {
+module.exports = function pre(str, lang) {
   if (typeof str !== 'string') {
     throw new TypeError('markdown-pre expects a string.');
   }
 
   var code = '';
-  code += '```' + (language || '');
+  code += '```' + (typeof lang === 'string' ? lang : '');
   code += '\n';
   code += str;
   code += '\n';
